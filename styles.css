@@ -1,0 +1,51 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+}
+body{
+    background-color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    row-gap: 20px;
+    border-width: 10px ;
+    border-color:grey;
+ }
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+.item {
+    text-align: center;
+    font-weight:bolder ;
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+button{
+    color: rgb(21, 138, 173);
+    contain: content;
+    padding: 20px;
+    row-gap: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+@media screen  and (min-width:375px) and (max-width:767px) {
+    .item {
+        background-color: aqua;
+    }
+}
+@media screen and (min-width:786px) and (max-width:1023px) {
+   .container {
+    background-color: blue;
+   } 
+}
+    
+
+
+   
