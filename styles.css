@@ -12,11 +12,13 @@ body{
     row-gap: 20px;
     border-width: 10px ;
     border-color:grey;
+    margin: 300px;
+    justify-content: center;
  }
 img {
     display: block;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 .item {
     text-align: center;
@@ -34,18 +36,18 @@ button{
     row-gap: 10px;
     margin-left: 300px;
     margin-right: 300px;
+    border-radius: 10px;
+    width: 300px;
 }
 @media screen  and (min-width:375px) and (max-width:767px) {
-    .item {
-        background-color: aqua;
-    }
+
 }
-@media screen and (min-width:786px) and (max-width:1023px) {
-   .container {
-    background-color: blue;
-   } 
+@media screen and (min-width:786px) and (max-width:1023px) { 
+
+
 }
     
+
 
 
    
